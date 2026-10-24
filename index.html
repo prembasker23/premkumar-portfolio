@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premkumar — Full Stack Developer Portfolio">
+  <title>Premkumar | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="header" id="header">
+    <a class="logo" href="#home"><span>&lt;/&gt;</span> Premkumar</a>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <a class="mini-cta" href="#contact">Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <button class="menu-btn" id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg"><span></span><span></span><span></span></div>
+      <div class="hero-copy reveal">
+        <div class="availability"><span></span> Available for opportunities</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Premkumar<span></span></h1>
+        <h2><span id="typing"></span><span class="caret">|</span></h2>
+        <p class="hero-text">I design and build high-performance digital products that turn complex ideas into clean, scalable and user-friendly experiences.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="btn ghost" href="./SoftwareEnginner resume.pdf" download>Download Resume <i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="http://www.linkedin.com/in/prem-kumar-477a2537a" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/__rider__of__r15__v4__/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:prembasker23@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-wrap">
+          <div class="profile-ring"></div>
+          <img class="profile-image" src="./professional.jpeg" alt="Premkumar - Full Stack Developer">
+        </div>
+        <div class="code-card">
+          <div class="window-top"><span></span><span></span><span></span><b>developer.js</b></div>
+          <pre><code><span class="kw">const</span> developer = {
+  name: <span class="str">"Premkumar"</span>,
+  role: <span class="str">"Full Stack Developer"</span>,
+  stack: [<span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>,
+          <span class="str">"JavaScript"</span>, <span class="str">"MySQL"</span>],
+  mindset: <span class="str">"Build. Learn. Improve."</span>
+};</code></pre>
+        </div>
+        <div class="floating-card fc-one"><i class="fa-solid fa-code"></i><div><strong>Clean Code</strong><small>Scalable architecture</small></div></div>
+        <div class="floating-card fc-two"><i class="fa-solid fa-bolt"></i><div><strong>Performance</strong><small>Fast & responsive</small></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <!-- <span>BUILDING WITH</span><b>JAVA</b><b>SPRING BOOT</b><b>JAVASCRIPT</b><b>MYSQL</b><b>HTML5</b><b>CSS3</b> -->
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head reveal"><p class="eyebrow">01 — ABOUT</p><h2>More than a developer.<br><span>A problem solver.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I’m a developer focused on building practical software with strong fundamentals, thoughtful UI and maintainable backend architecture.</p>
+          <p>I enjoy taking a product from an idea to a working experience — understanding the problem, designing the flow, writing the code, testing it and continuously improving it.</p>
+          <div class="about-points">
+            <div><i class="fa-solid fa-check"></i><span>Business-focused development</span></div>
+            <div><i class="fa-solid fa-check"></i><span>Responsive, accessible interfaces</span></div>
+            <div><i class="fa-solid fa-check"></i><span>REST APIs & database design</span></div>
+            <div><i class="fa-solid fa-check"></i><span>Clean, reusable code</span></div>
+          </div>
+        </div>
+        <div class="about-panel reveal">
+          <div class="metric"><strong data-count="10">0</strong><span>+</span><small>Projects & builds</small></div>
+          <div class="metric"><strong data-count="15">0</strong><span>+</span><small>Technologies explored</small></div>
+          <div class="metric"><strong data-count="1000">0</strong><span>+</span><small>Hours of coding</small></div>
+          <div class="metric"><strong data-count="100">0</strong><span>%</span><small>Learning mindset</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head center reveal"><p class="eyebrow">02 — SKILLS</p><h2>Tools I use to <span>ship.</span></h2><p>Strong fundamentals with a practical full-stack mindset.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><i class="fa-brands fa-java"></i><h3>Java</h3><p>OOP, Collections, Exception Handling, JDBC</p><div class="skill-line"><span style="width:90%"></span></div><small>90%</small></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-leaf"></i><h3>Spring Boot</h3><p>REST APIs, JPA, validation, security</p><div class="skill-line"><span style="width:85%"></span></div><small>85%</small></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>DOM, ES6+, APIs, async programming</p><div class="skill-line"><span style="width:85%"></span></div><small>85%</small></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-database"></i><h3>MySQL</h3><p>Queries, joins, relationships, schema design</p><div class="skill-line"><span style="width:85%"></span></div><small>85%</small></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-html5"></i><h3>HTML / CSS</h3><p>Semantic HTML, responsive layouts, UI systems</p><div class="skill-line"><span style="width:95%"></span></div><small>95%</small></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-git-alt"></i><h3>Git & GitHub</h3><p>Version control, branches, collaboration</p><div class="skill-line"><span style="width:90%"></span></div><small>90%</small></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-head reveal"><p class="eyebrow">03 — SELECTED WORK</p><h2>Projects that show<br><span>how I think.</span></h2></div>
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">All</button><button class="filter" data-filter="fullstack">Full Stack</button><button class="filter" data-filter="frontend">Frontend</button><button class="filter" data-filter="java">Java</button>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal" data-category="fullstack java">
+          <div class="project-visual doctor"><div class="mock-browser"><div></div><div></div><div></div></div><i class="fa-solid fa-stethoscope"></i><span>Healthcare Platform</span></div>
+          <div class="project-body"><div class="project-meta"><span>01</span><small>FULL STACK</small></div><h3>Doctor Appointment Platform</h3><p>Role-based appointment system with patient, doctor and admin workflows, booking history and extensible backend architecture.</p><div class="tags"><b>Spring Boot</b><b>MySQL</b><b>JavaScript</b></div><div class="project-links"><a href="#">Case Study <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="#"><i class="fa-brands fa-github"></i> Code</a></div></div>
+        </article>
+        <article class="project-card reveal" data-category="frontend">
+          <div class="project-visual shop"><i class="fa-solid fa-bag-shopping"></i><span>E-Commerce UI</span></div>
+          <div class="project-body"><div class="project-meta"><span>02</span><small>FRONTEND</small></div><h3>E-Commerce Experience</h3><p>Responsive shopping interface with product discovery, cart interactions and polished micro-animations.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><div class="project-links"><a href="#">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="#"><i class="fa-brands fa-github"></i> Code</a></div></div>
+        </article>
+        <article class="project-card reveal" data-category="frontend">
+          <div class="project-visual streaming"><i class="fa-solid fa-play"></i><span>Streaming UI</span></div>
+          <div class="project-body"><div class="project-meta"><span>03</span><small>FRONTEND</small></div><h3>Streaming Platform UI</h3><p>Dark cinematic interface with content rows, hover interactions, hero banners and responsive navigation.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><div class="project-links"><a href="#">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="#"><i class="fa-brands fa-github"></i> Code</a></div></div>
+        </article>
+        <article class="project-card reveal" data-category="fullstack">
+          <div class="project-visual church"><i class="fa-solid fa-church"></i><span>Community Platform</span></div>
+          <div class="project-body"><div class="project-meta"><span>04</span><small>FULL STACK</small></div><h3>Church Management Website</h3><p>Modern community website with contact workflows, event content and backend-ready architecture.</p><div class="tags"><b>Spring Boot</b><b>MySQL</b><b>HTML/CSS</b></div><div class="project-links"><a href="#">Case Study <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="#"><i class="fa-brands fa-github"></i> Code</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head center reveal"><p class="eyebrow">04 — JOURNEY</p><h2>Experience & <span>education.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="dot"></span><div><small>2024 — PRESENT</small><h3>Full Stack Development</h3><p>Building Java/Spring Boot applications, responsive interfaces and database-backed systems while continuously strengthening software engineering fundamentals.</p></div></div>
+        <div class="timeline-item reveal"><span class="dot"></span><div><small>2025</small><h3>Web Development Internship</h3><p>Worked on responsive pages, JavaScript interactions, debugging and practical development workflows.</p></div></div>
+        <div class="timeline-item reveal"><span class="dot"></span><div><small>2022 — 2026</small><h3>B.TECH / Information Technology</h3><p>Developed a foundation in programming, databases, web technologies, software engineering and project development.</p></div></div>
+        <div class="timeline-item reveal"><span class="dot"></span><div><small>2026 — 2027</small><h3>Q SPIDER / JavaFullStackDevelopment Course</h3><p>Developed a foundation in programming, databases, web technologies, software engineering and project development.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-head reveal"><p class="eyebrow">05 — VALUE</p><h2>What I bring to<br><span>your team.</span></h2></div>
+      <div class="services-grid">
+        <article class="service reveal"><span>01</span><i class="fa-solid fa-layer-group"></i><h3>Full Stack Development</h3><p>Frontend experiences connected to clean REST APIs, business logic and relational databases.</p></article>
+        <article class="service reveal"><span>02</span><i class="fa-solid fa-gauge-high"></i><h3>Performance & UX</h3><p>Fast, responsive interfaces designed around clarity, usability and real user journeys.</p></article>
+        <article class="service reveal"><span>03</span><i class="fa-solid fa-puzzle-piece"></i><h3>Problem Solving</h3><p>Break complex requirements into manageable components and deliver solutions systematically.</p></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-copy"><p class="eyebrow">06 — CONTACT</p><h2>Have a problem<br><span>worth solving?</span></h2><p>Tell me what you're building. I'm open to internships, junior developer roles and meaningful projects.</p><div class="contact-details"><a href="mailto:prembasker23@gmail.com"><i class="fa-regular fa-envelope"></i> prembasker23@gmail.com</a><a href="http://www.linkedin.com/in/prem-kumar-477a2537a"><i class="fa-brands fa-linkedin"></i> LinkedIn</a><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></div></div>
+        <form id="contactForm">
+          <div class="form-row"><label>Name<input required type="text" placeholder="Your name"></label><label>Email<input required type="email" placeholder="you@email.com"></label></div>
+          <label>Subject<input required type="text" placeholder="What would you like to discuss?"></label>
+          <label>Message<textarea required rows="5" placeholder="Tell me about the opportunity or project..."></textarea></label>
+          <button class="btn primary" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div><a class="logo" href="#home"><span>&lt;/&gt;</span> Premkumar</a><p>Building digital products with curiosity and purpose.</p></div><p>© <span id="year"></span> Premkumar. Crafted with HTML, CSS & JavaScript.</p></footer>
+  <button class="top-btn" id="topBtn" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
